@@ -55,11 +55,14 @@ Notes     : Elevated heart rate patterns associated with tachycardia
 
 ## Images
 
-| File | Description |
-|------|--------------|
-| `images/ecgSignalFigure.png` | Filtered ECG signal with R-peaks |
-| `images/patternReport.png` | Example ECG report output |
-| `images/signalGeneratorGUI.png` | MATLAB GUI used for signal simulation |
+### Filtered ECG with Detected R-Peaks
+![Filtered ECG](images/ecgSignalFigure.png)
+
+### Example ECG Report Output
+![Pattern Report](images/patternReport.png)
+
+### MATLAB Signal Generator GUI
+![Signal Generator GUI](images/signalGeneratorGUI.png)
 
 
 ## Notes
@@ -68,6 +71,8 @@ Notes     : Elevated heart rate patterns associated with tachycardia
 - If no peaks are detected, lower the `MinPeakProminence` value or use a cleaner ECG sample.  
 - Designed for learning ECG signal processing and demonstrating QMS documentation in Project Week.
 
-## Credits:
-All programming done by Alvaro
-GenAI helped with the readme though lol
+
+## Credits
+
+All MATLAB programming by **Alvaro Balbin**.  
+GenAI assisted with documentation (README formatting and explanations).
