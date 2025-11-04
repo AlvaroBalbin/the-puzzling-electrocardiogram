@@ -67,7 +67,7 @@ Notes     : Elevated heart rate patterns associated with tachycardia
 
 ## Notes
 
-- Works best with signals longer than 10 seconds.  
+- Works best with signals longer 5 it probably wont work well if it's shorter.  
 - If no peaks are detected, lower the `MinPeakProminence` value or use a cleaner ECG sample.  
 - Designed for learning ECG signal processing and demonstrating QMS documentation in Project Week.
 
